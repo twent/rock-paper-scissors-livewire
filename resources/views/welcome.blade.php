@@ -6,10 +6,6 @@
 
         <title>Rock paper scissors Game</title>
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-
         <!-- Styles -->
         @vite('resources/css/app.css')
 
@@ -17,8 +13,8 @@
         @livewireStyles
     </head>
     <body class="antialiased">
-        @livewire('game-field')
-        
+        <livewire:game-field />
+
         @livewireScripts
     </body>
 </html>

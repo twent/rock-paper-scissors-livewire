@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+    @apply max-w-3xl mx-auto py-4 px-4 space-y-4;
+}
+
+.game__heading {
+    @apply text-3xl font-bold text-center mt-4;
+}
+
+.game__field {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-4;
+}
+
+.game__choice {
+    @apply mb-4;
+}
+
+.choice__heading {
+    @apply text-xl font-bold py-4;
+}
+
+.opponent__choice {
+    @apply text-base font-bold text-info mt-3;
+}
+
+.game__result {
+    @apply text-3xl font-bold text-warning;
+}
