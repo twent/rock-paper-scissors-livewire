@@ -2,6 +2,8 @@
 
 This is a project for learning a Livewire.
 
+![rock-paper-scissors-game](https://user-images.githubusercontent.com/7511983/223768365-961883ac-022f-464d-ba8c-725b4e02c8f0.jpg)
+
 ### How to run
 
 1. Clone this repo
